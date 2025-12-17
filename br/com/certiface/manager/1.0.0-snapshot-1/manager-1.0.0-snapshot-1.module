@@ -1,0 +1,243 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface",
+    "module": "manager",
+    "version": "1.0.0-snapshot-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "br.com.certiface",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "domain",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "network",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "manager-1.0.0-snapshot-1.aar",
+          "url": "manager-1.0.0-snapshot-1.aar",
+          "size": 53972,
+          "sha512": "229c0b098c1cc3e6df34f103788652e2afbecfeeb20f520c7e0a93137dd5c51210f7fbf38606e6abe20058cad520d1e49f60eea521bc39c0db38b385d0a4cf79",
+          "sha256": "fa3cae8ba6187f23d9265a78ac357370fcc052fef0a7f037ef194ea5e7cb8a2f",
+          "sha1": "e1b2f5fdf6d768d1d3166f955490724d9cace7e6",
+          "md5": "9fafa35f0054363c02c92db51dc1464c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "data",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "utils",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "logging",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "domain",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "network",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-snapshot-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "manager-1.0.0-snapshot-1.aar",
+          "url": "manager-1.0.0-snapshot-1.aar",
+          "size": 53972,
+          "sha512": "229c0b098c1cc3e6df34f103788652e2afbecfeeb20f520c7e0a93137dd5c51210f7fbf38606e6abe20058cad520d1e49f60eea521bc39c0db38b385d0a4cf79",
+          "sha256": "fa3cae8ba6187f23d9265a78ac357370fcc052fef0a7f037ef194ea5e7cb8a2f",
+          "sha1": "e1b2f5fdf6d768d1d3166f955490724d9cace7e6",
+          "md5": "9fafa35f0054363c02c92db51dc1464c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "manager-1.0.0-snapshot-1-sources.jar",
+          "url": "manager-1.0.0-snapshot-1-sources.jar",
+          "size": 20892,
+          "sha512": "1be05154a4871ff7fb16aee5bfa3aadef65ba5ea036b7309578f05482e9c1e4e5545c4b25101312e3257da48e3a362e1d34074fce981225d57ee14bbf2fb93b0",
+          "sha256": "c3c7c15a62096460d281e3e0416d8a6b30851dfb10d706ab2fc792906e5a1f43",
+          "sha1": "ccd1f055b78ad2daf9b508b314feee9f235f2ea9",
+          "md5": "4c205afcda963ff79d82065d7a57aa1c"
+        }
+      ]
+    }
+  ]
+}
