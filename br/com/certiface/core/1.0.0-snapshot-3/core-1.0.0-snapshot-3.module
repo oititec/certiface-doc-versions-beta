@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface",
+    "module": "core",
+    "version": "1.0.0-snapshot-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "br.com.certiface",
+          "module": "domain",
+          "version": {
+            "requires": "1.0.0-snapshot-3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.0.0-snapshot-3.aar",
+          "url": "core-1.0.0-snapshot-3.aar",
+          "size": 9998,
+          "sha512": "e310acf36ee85c3cdefaf8f25a678bd86b9e4686bfe560fbd296d9a050ede021c18f9dd016d919b338abcad73253a91833f14b7fdd511293b3701af48dccb4d4",
+          "sha256": "d6c8c818d0f718373ef494b6a4a4402d97bfda4d6d9b3855eec466b2522714fc",
+          "sha1": "275966cf0a7f6140687165aeab5b0e6f4b8d104d",
+          "md5": "71dc00b626e4e0b3e70ae079aa8b5ff5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "br.com.certiface",
+          "module": "domain",
+          "version": {
+            "requires": "1.0.0-snapshot-3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.0.0-snapshot-3.aar",
+          "url": "core-1.0.0-snapshot-3.aar",
+          "size": 9998,
+          "sha512": "e310acf36ee85c3cdefaf8f25a678bd86b9e4686bfe560fbd296d9a050ede021c18f9dd016d919b338abcad73253a91833f14b7fdd511293b3701af48dccb4d4",
+          "sha256": "d6c8c818d0f718373ef494b6a4a4402d97bfda4d6d9b3855eec466b2522714fc",
+          "sha1": "275966cf0a7f6140687165aeab5b0e6f4b8d104d",
+          "md5": "71dc00b626e4e0b3e70ae079aa8b5ff5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-1.0.0-snapshot-3-sources.jar",
+          "url": "core-1.0.0-snapshot-3-sources.jar",
+          "size": 5252,
+          "sha512": "55237e074c9beaefa2c63462439ca5c6e12bd82f9a96cafd29e5a8dbb7acd62efa94e545fca17d93b8fb92caee2017b6f06c3b31369d66a6a451b1ce3f61de14",
+          "sha256": "e24e7ebc38ffe39787d47589ba0d3f3f829ceaad7397028d8d022200ea73f875",
+          "sha1": "bdae7e12c1c16b2b80326e3208865f0892192e3b",
+          "md5": "50327b5297e48396e47584fb29f512a1"
+        }
+      ]
+    }
+  ]
+}
