@@ -1,4 +1,4 @@
-<IMG  src="https://github.com/oititec/liveness-android-sdk/blob/main/Documentation/Images/OitiHeader.png?raw=true"  alt="OitiHeader.png"/>
+![CertiFace](./Documentation/Images/CertifaceHeader.png)
 
 
 # Certiface Doc - SDK para Android
