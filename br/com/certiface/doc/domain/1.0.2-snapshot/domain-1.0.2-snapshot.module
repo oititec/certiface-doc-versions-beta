@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface.doc",
+    "module": "domain",
+    "version": "1.0.2-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "br.com.certiface.doc",
+          "module": "designsystem",
+          "version": {
+            "requires": "1.0.2-snapshot"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "domain-1.0.2-snapshot.aar",
+          "url": "domain-1.0.2-snapshot.aar",
+          "size": 43528,
+          "sha512": "5df331786e51d03ef1797bbd8243c73a6d0814702f2221e2b60125773b0765106cb4707fe68066788d984086ba6cae20bb66888daeafeefd6f7ffd8a56bab559",
+          "sha256": "cb092375b611479eedc60cb0fea893fed9218c9546674724389202632d1fe3d2",
+          "sha1": "3b5c8ff9ed55e1cb7acf26d7d55c4beb18fadd8e",
+          "md5": "66178308c8b056b44fe57e43b2715fc4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "designsystem",
+          "version": {
+            "requires": "1.0.2-snapshot"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "domain-1.0.2-snapshot.aar",
+          "url": "domain-1.0.2-snapshot.aar",
+          "size": 43528,
+          "sha512": "5df331786e51d03ef1797bbd8243c73a6d0814702f2221e2b60125773b0765106cb4707fe68066788d984086ba6cae20bb66888daeafeefd6f7ffd8a56bab559",
+          "sha256": "cb092375b611479eedc60cb0fea893fed9218c9546674724389202632d1fe3d2",
+          "sha1": "3b5c8ff9ed55e1cb7acf26d7d55c4beb18fadd8e",
+          "md5": "66178308c8b056b44fe57e43b2715fc4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "domain-1.0.2-snapshot-sources.jar",
+          "url": "domain-1.0.2-snapshot-sources.jar",
+          "size": 11135,
+          "sha512": "9a07d0713a45d3aa6996cab71aaff16a79004fe783b9aeaa64718309690259b62c9febf6131c11bd7155fd09a50171783de361f34c92da32716fe28e1f82fe50",
+          "sha256": "4ebbae2d6ee691852bb41d7a2707530d1bffb126819aadc0430b7eb48efe8280",
+          "sha1": "cd9c0046076ffe7f3d41d6a6d51904b1bd8af00a",
+          "md5": "087e22f846c6bd0d9f4e9fc757a0fd8e"
+        }
+      ]
+    }
+  ]
+}
