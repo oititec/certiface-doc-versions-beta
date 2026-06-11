@@ -3,12 +3,13 @@
   <groupId>br.com.certiface.doc</groupId>
   <artifactId>data</artifactId>
   <versioning>
-    <latest>1.0.1</latest>
-    <release>1.0.1</release>
+    <latest>1.0.1-snapshot</latest>
+    <release>1.0.1-snapshot</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
+      <version>1.0.1-snapshot</version>
     </versions>
-    <lastUpdated>20260611192348</lastUpdated>
+    <lastUpdated>20260611201228</lastUpdated>
   </versioning>
 </metadata>
