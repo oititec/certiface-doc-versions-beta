@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface.doc",
+    "module": "designsystem",
+    "version": "1.0.1-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "br.com.certiface.doc",
+          "module": "multimedia",
+          "version": {
+            "requires": "1.0.1-snapshot"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "designsystem-1.0.1-snapshot.aar",
+          "url": "designsystem-1.0.1-snapshot.aar",
+          "size": 2089632,
+          "sha512": "108baddb3788bde5590b699669d2a9e19b88d8db197a6e4cd4a3afa187b61794b9732c3e3c5a25f9e9a4fb4fcd2e7de7cf05e3f45e327c70f1542f764e09fe2b",
+          "sha256": "e148fe9adf93ee3e1f007d311c0cc3639f7487c4ff830a8b4fde01e69e9b131f",
+          "sha1": "137b03791da334b1f0afa2b679c1500486f48c9b",
+          "md5": "79f412a9cb053e6755789e12f646af0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "multimedia",
+          "version": {
+            "requires": "1.0.1-snapshot"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "designsystem-1.0.1-snapshot.aar",
+          "url": "designsystem-1.0.1-snapshot.aar",
+          "size": 2089632,
+          "sha512": "108baddb3788bde5590b699669d2a9e19b88d8db197a6e4cd4a3afa187b61794b9732c3e3c5a25f9e9a4fb4fcd2e7de7cf05e3f45e327c70f1542f764e09fe2b",
+          "sha256": "e148fe9adf93ee3e1f007d311c0cc3639f7487c4ff830a8b4fde01e69e9b131f",
+          "sha1": "137b03791da334b1f0afa2b679c1500486f48c9b",
+          "md5": "79f412a9cb053e6755789e12f646af0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "designsystem-1.0.1-snapshot-sources.jar",
+          "url": "designsystem-1.0.1-snapshot-sources.jar",
+          "size": 73028,
+          "sha512": "b141a7766ebc672de9d8cf6bf85ab5c223efa8a49172488419da113469c6f7f23c2bf70cdea41615cd287c17c4bf288ebeae91e4d2bec81a65e2582f36bb92e2",
+          "sha256": "c9c7b4cb2e9e13c1e32f26592e5b8b0dacdc123e70cb00444cc49d8963d21576",
+          "sha1": "c21dfa53ab71d4b6f2db595076327f6394bae454",
+          "md5": "b7d0161bf3f485e4510adce1e551cfd8"
+        }
+      ]
+    }
+  ]
+}
