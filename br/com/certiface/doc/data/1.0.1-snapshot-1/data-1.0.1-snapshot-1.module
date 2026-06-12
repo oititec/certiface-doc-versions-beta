@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface.doc",
+    "module": "data",
+    "version": "1.0.1-snapshot-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-1.0.1-snapshot-1.aar",
+          "url": "data-1.0.1-snapshot-1.aar",
+          "size": 40451,
+          "sha512": "0c2d39b8bb6b6ee1ca726bfdc0480e50653a85f45ed68e6290e8530c2b8f2f6636cee6e4a6109ff41ee5eb4b539a3f24103fe9ccacb4a7d09fd94a2f5d22d6e0",
+          "sha256": "d68695114b5c109c3b00c6ea1d435ec2f9c9cafdf62da25448c41bf9834d8e06",
+          "sha1": "35d557c4a0b55e6b5307aa6f2f11fbf7b60440cf",
+          "md5": "fda3d6a8aa340b9299d5e2636d2c407e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "core",
+          "version": {
+            "requires": "1.0.1-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "domain",
+          "version": {
+            "requires": "1.0.1-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "network",
+          "version": {
+            "requires": "1.0.1-snapshot-1"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "logging",
+          "version": {
+            "requires": "1.0.1-snapshot-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-1.0.1-snapshot-1.aar",
+          "url": "data-1.0.1-snapshot-1.aar",
+          "size": 40451,
+          "sha512": "0c2d39b8bb6b6ee1ca726bfdc0480e50653a85f45ed68e6290e8530c2b8f2f6636cee6e4a6109ff41ee5eb4b539a3f24103fe9ccacb4a7d09fd94a2f5d22d6e0",
+          "sha256": "d68695114b5c109c3b00c6ea1d435ec2f9c9cafdf62da25448c41bf9834d8e06",
+          "sha1": "35d557c4a0b55e6b5307aa6f2f11fbf7b60440cf",
+          "md5": "fda3d6a8aa340b9299d5e2636d2c407e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data-1.0.1-snapshot-1-sources.jar",
+          "url": "data-1.0.1-snapshot-1-sources.jar",
+          "size": 16499,
+          "sha512": "a4d6eaca7ade050c4e379c18491d9b5c54e8efd220dc88d24983e8d927958e147f9e8700d8e8d27b726f6787e627115e42d01d9a8abefc9b3a39c1e2f010d08b",
+          "sha256": "5a0c000d9174a144d8962795bdbdf620cd98230c6ecdfb9086d6fa961b46d04b",
+          "sha1": "3b3df45bc89b16b5f9be4e2f8497c8996686bfdb",
+          "md5": "54bf2831b309063a31a430c0ee873388"
+        }
+      ]
+    }
+  ]
+}
