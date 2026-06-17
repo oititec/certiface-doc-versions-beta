@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface.doc",
+    "module": "utils",
+    "version": "1.0.1-snapshot-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "br.com.certiface.doc",
+          "module": "core",
+          "version": {
+            "requires": "1.0.1-snapshot-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-1.0.1-snapshot-2.aar",
+          "url": "utils-1.0.1-snapshot-2.aar",
+          "size": 75664,
+          "sha512": "bea107d2498b598d889f33bf0c536ffa47984105de5f10ffb345344e555d0573b234f185b5d06ba81d8dd84fd302944f48d0cc01e3fc400ba8ad5607bdac75d6",
+          "sha256": "ff5c4ef2d9a91fee2bdc8a3284979d8ff7395a6431ee26ed0c46810b21c07b0d",
+          "sha1": "5ebbb0b9e5ef6903b511de8cb690293a65f0cc90",
+          "md5": "3ead7646ca9c1de65f3482b64128dd1d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "core",
+          "version": {
+            "requires": "1.0.1-snapshot-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-1.0.1-snapshot-2.aar",
+          "url": "utils-1.0.1-snapshot-2.aar",
+          "size": 75664,
+          "sha512": "bea107d2498b598d889f33bf0c536ffa47984105de5f10ffb345344e555d0573b234f185b5d06ba81d8dd84fd302944f48d0cc01e3fc400ba8ad5607bdac75d6",
+          "sha256": "ff5c4ef2d9a91fee2bdc8a3284979d8ff7395a6431ee26ed0c46810b21c07b0d",
+          "sha1": "5ebbb0b9e5ef6903b511de8cb690293a65f0cc90",
+          "md5": "3ead7646ca9c1de65f3482b64128dd1d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "utils-1.0.1-snapshot-2-sources.jar",
+          "url": "utils-1.0.1-snapshot-2-sources.jar",
+          "size": 28092,
+          "sha512": "1a62e5027689161a33c0743cc130543670559b1f81de379ddb1cdc898889beb09dced312aefff6c268d94faf02d306bd20666f60817ad2141197c4eafc3c19f3",
+          "sha256": "2d8328900fe98766597574fb1845ca449fd3ea0ab908c62b256e6885fc3b765a",
+          "sha1": "2e45c526dd3f3d3b363e75aa6f8e02108d6bb016",
+          "md5": "37ea3d44e432d13762f8dc358a075e9c"
+        }
+      ]
+    }
+  ]
+}
