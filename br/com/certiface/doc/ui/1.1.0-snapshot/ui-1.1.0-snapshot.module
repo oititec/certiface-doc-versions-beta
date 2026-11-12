@@ -1,0 +1,311 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.certiface.doc",
+    "module": "ui",
+    "version": "1.1.0-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "br.com.certiface.doc",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "domain",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "designsystem",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "multimedia",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-1.1.0-snapshot.aar",
+          "url": "ui-1.1.0-snapshot.aar",
+          "size": 174586,
+          "sha512": "1f847d921b4b960c47c013b34f950592a36743346c086ccd68130c5439ca1bd9188324caff61648b9299d44691588e9c83409a479c88a073c488386c1a682415",
+          "sha256": "c8db13eea122b66b8f9d93bf9009d9d8d6f8ea589a009a9b3d3c1a678be3728b",
+          "sha1": "a5cb782e2abdb03cdce16cb29dd9eb7fa89e05db",
+          "md5": "65210209af0c44e680bffb27d1458b51"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "data",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "utils",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "domain",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "designsystem",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "br.com.certiface.doc",
+          "module": "multimedia",
+          "version": {
+            "requires": "1.1.0-snapshot"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-1.1.0-snapshot.aar",
+          "url": "ui-1.1.0-snapshot.aar",
+          "size": 174586,
+          "sha512": "1f847d921b4b960c47c013b34f950592a36743346c086ccd68130c5439ca1bd9188324caff61648b9299d44691588e9c83409a479c88a073c488386c1a682415",
+          "sha256": "c8db13eea122b66b8f9d93bf9009d9d8d6f8ea589a009a9b3d3c1a678be3728b",
+          "sha1": "a5cb782e2abdb03cdce16cb29dd9eb7fa89e05db",
+          "md5": "65210209af0c44e680bffb27d1458b51"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-1.1.0-snapshot-sources.jar",
+          "url": "ui-1.1.0-snapshot-sources.jar",
+          "size": 18754,
+          "sha512": "9c53143138316ce1e6f182389268ff83f01bf28fc4f182831345682b9044a204a87b54b6c302a2a6dce14126bda5aea8d97c6f477422d1f80a264bf7fd4ee917",
+          "sha256": "f4af411db1e51acafde81886d12244184bc131628bc073dbc42e0a2fe111a873",
+          "sha1": "8829fc1348e1c629de00926156d4134cf476d4bf",
+          "md5": "5513c55409b72352338930ac2d4dd1d2"
+        }
+      ]
+    }
+  ]
+}
